@@ -1,0 +1,4 @@
+neutral white #EEF5FF
+blue accent 1 #B4D4FF
+blue accent 2 #86B6F6
+blue accent 3 #176B87
