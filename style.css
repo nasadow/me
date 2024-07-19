@@ -9,8 +9,9 @@ body{
     background-color: #EEF5FF;
     color: #000000;
     background-image:  url("images/bg1.svg");
-    background-size:auto;
-    
+    background-size:100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .topnav{
