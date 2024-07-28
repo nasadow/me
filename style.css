@@ -48,7 +48,7 @@ body{
         text-align: left;
         font-size: 8vh;
         position: relative;
-        left: 6.5vh;
+        left: 100px;
         top: 8vh;
         animation: nameFromLeft 1500ms ease;
     }
@@ -59,7 +59,7 @@ body{
         text-align: left;
         font-size: 4vh;
         position: relative;
-        left: 7.1vh;
+        left: 105px;
         top: 8.5vh;
         animation: titleFromRight 1500ms ease;
     }
