@@ -60,7 +60,7 @@ body{
         font-size: 4vh;
         position: relative;
         left: 0;
-        top: 17vh;
+        top: 10vh;
         animation: titleFromRight 1500ms ease;
     }
 
