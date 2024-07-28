@@ -45,10 +45,10 @@ body{
     .name h1{
         color: #EEF5FF;
         padding: 5px 0 0 10px;
-        text-align: left;
+        text-align: center;
         font-size: 8vh;
-        position: fixed;
-        left: 100px;
+        position: relative;
+        left: 0;
         top: 8vh;
         animation: nameFromLeft 1500ms ease;
     }
@@ -56,10 +56,10 @@ body{
     .name h2{
         color: #748091;
         padding: 5px;
-        text-align: left;
+        text-align: center;
         font-size: 4vh;
-        position: fixed;
-        left: 105px;
+        position: relative;
+        left: 0;
         top: 17vh;
         animation: titleFromRight 1500ms ease;
     }
