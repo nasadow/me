@@ -62,14 +62,15 @@ body{
         left: 0;
         top: 10vh;
         animation: titleFromRight 1500ms ease;
-    }
 
-    .name a{
-        position: relative;
-        left: 0vh;
-        top: 0.35vh;
-        animation: fade 3500ms ease;
+
+        .name a{
+            position: relative;
+            top: 0.35vh;
+
+        }
     }
+}
 
     @keyframes topnavLoad{
         0% {
@@ -110,4 +111,3 @@ body{
             opacity: 100%;
         }
     }
-}
