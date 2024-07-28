@@ -9,10 +9,16 @@ body{
     background-color: #EEF5FF;
     color: #000000;
     background-image:  url("images/bg1.svg");
-    background-size:100%;
-    max-width: 100%;
-    overflow-x: hidden;
-}
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; 
+    overflow: hidden;
 
 .topnav{
     background-color: #042e3d;
@@ -28,7 +34,7 @@ body{
     text-align: center;
     padding: 10px 15px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .topnav a:hover {
@@ -59,9 +65,9 @@ body{
 }
 
 .name p a{
-    position: relative;
-    left: 579px;
-    top: 43px;
+    position: fixed;
+    left: 375px;
+    top: 200sx;
     animation: fade 3500ms ease;
 }
 
