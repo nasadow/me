@@ -67,7 +67,16 @@ body{
         .name a{
             position: relative;
             top: 0.35vh;
+        }
+    }
 
+    .experience{
+        margin: 10px;
+
+        h1{
+            font-size: 8vh;
+            color: #EEF5FF;
+            padding: 5px 0 0 10px;
         }
     }
 }
